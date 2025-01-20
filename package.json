@@ -7,12 +7,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alex2256/Monovision_Studio.git"
+    "url": "git+https://github.com/Alex2256/projectPulse.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alex2256/Monovision_Studio/issues"
+    "url": "git+https://github.com/Alex2256/projectPulse/issues"
   },
   "homepage": "https://github.com/Alex2256/Monovision_Studio#readme",
   "description": "",
@@ -21,7 +21,9 @@
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-sass": "^6.0.0"
+    "gulp-cli": "^3.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.83.4"
   },
   "dependencies": {
     "gulp-rename": "^2.0.0"
