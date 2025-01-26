@@ -1,4 +1,4 @@
-@import 'base/_variables';
+@import 'base/variables';
 
 *{
     font-family: "MuseoModerno";
@@ -9,6 +9,7 @@
     margin: 0 auto;
 }
 
-@import 'blocks/_promo';
+@import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/advantages';
