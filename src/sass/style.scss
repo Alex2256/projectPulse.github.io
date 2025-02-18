@@ -1,8 +1,9 @@
 @import 'base/variables';
 
 *{
-    font-family: "MuseoModerno";
+    font-family: 'Museo Sans Cyrl';
 }
+
 
 .container{
     max-width: 950px;
@@ -13,3 +14,8 @@
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/_carousel';
+@import 'blocks/catalog';
