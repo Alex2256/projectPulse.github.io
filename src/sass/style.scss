@@ -1,10 +1,12 @@
+@import 'libs/fonts';
+@import 'libs/modern-normalize';
+@import 'libs/slick';
+@import 'libs/animate';
 @import 'base/variables';
 
 *{
     font-family: 'Museo Sans Cyrl';
 }
-
-
 .container{
     max-width: 950px;
     margin: 0 auto;
@@ -21,4 +23,5 @@
 @import 'blocks/catalog';
 @import 'blocks/reviews';
 @import 'blocks/footer';
-@import 'blocks/modal'
+@import 'blocks/modal';
+@import 'blocks/padgeup';
