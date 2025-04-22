@@ -67,17 +67,4 @@ gulp.task("images", function () {
 		.pipe(gulp.dest("dist/img"));
 });
 
-gulp.task(
-	"default",
-	gulp.parallel(
-		"watch",
-		"server",
-		"styles",
-		"scripts",
-		"fonts",
-		"icons",
-		"mailer",
-		"html",
-		"images"
-	)
-);
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'mailer', 'html', 'images'));
